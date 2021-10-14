@@ -5,7 +5,6 @@ import imageSchema from './Image.js';
 import restaurantSchema from './Restaurant.js';
 import romanceSchema from './Romance.js';
 const { Schema, model } = mongoose;
-
 const countrySchema = new Schema(
 	{
 		heroBanner: {
